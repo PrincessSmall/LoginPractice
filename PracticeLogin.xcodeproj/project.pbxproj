@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE37EDC920FDC98300813815 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE37EDC820FDC98300813815 /* AppDelegate.m */; };
+		EE37EDCC20FDC98300813815 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE37EDCB20FDC98300813815 /* ViewController.m */; };
+		EE37EDCF20FDC98300813815 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE37EDCD20FDC98300813815 /* Main.storyboard */; };
+		EE37EDD120FDC98400813815 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE37EDD020FDC98400813815 /* Assets.xcassets */; };
+		EE37EDD420FDC98400813815 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE37EDD220FDC98400813815 /* LaunchScreen.storyboard */; };
+		EE37EDD720FDC98400813815 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE37EDD620FDC98400813815 /* main.m */; };
+		EE37EDE120FDC98500813815 /* PracticeLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE37EDE020FDC98500813815 /* PracticeLoginTests.m */; };
+		EE37EDEC20FDC98500813815 /* PracticeLoginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE37EDEB20FDC98500813815 /* PracticeLoginUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE37EDDD20FDC98500813815 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE37EDBC20FDC98300813815 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE37EDC320FDC98300813815;
+			remoteInfo = PracticeLogin;
+		};
+		EE37EDE820FDC98500813815 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE37EDBC20FDC98300813815 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE37EDC320FDC98300813815;
+			remoteInfo = PracticeLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE37EDC420FDC98300813815 /* PracticeLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE37EDC720FDC98300813815 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE37EDC820FDC98300813815 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE37EDCA20FDC98300813815 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE37EDCB20FDC98300813815 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE37EDCE20FDC98300813815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE37EDD020FDC98400813815 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE37EDD320FDC98400813815 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE37EDD520FDC98400813815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE37EDD620FDC98400813815 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE37EDDC20FDC98500813815 /* PracticeLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE37EDE020FDC98500813815 /* PracticeLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PracticeLoginTests.m; sourceTree = "<group>"; };
+		EE37EDE220FDC98500813815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE37EDE720FDC98500813815 /* PracticeLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE37EDEB20FDC98500813815 /* PracticeLoginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PracticeLoginUITests.m; sourceTree = "<group>"; };
+		EE37EDED20FDC98500813815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE37EDC120FDC98300813815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE37EDD920FDC98500813815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE37EDE420FDC98500813815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE37EDBB20FDC98300813815 = {
+			isa = PBXGroup;
+			children = (
+				EE37EDC620FDC98300813815 /* PracticeLogin */,
+				EE37EDDF20FDC98500813815 /* PracticeLoginTests */,
+				EE37EDEA20FDC98500813815 /* PracticeLoginUITests */,
+				EE37EDC520FDC98300813815 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE37EDC520FDC98300813815 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE37EDC420FDC98300813815 /* PracticeLogin.app */,
+				EE37EDDC20FDC98500813815 /* PracticeLoginTests.xctest */,
+				EE37EDE720FDC98500813815 /* PracticeLoginUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE37EDC620FDC98300813815 /* PracticeLogin */ = {
+			isa = PBXGroup;
+			children = (
+				EE37EDC720FDC98300813815 /* AppDelegate.h */,
+				EE37EDC820FDC98300813815 /* AppDelegate.m */,
+				EE37EDCA20FDC98300813815 /* ViewController.h */,
+				EE37EDCB20FDC98300813815 /* ViewController.m */,
+				EE37EDCD20FDC98300813815 /* Main.storyboard */,
+				EE37EDD020FDC98400813815 /* Assets.xcassets */,
+				EE37EDD220FDC98400813815 /* LaunchScreen.storyboard */,
+				EE37EDD520FDC98400813815 /* Info.plist */,
+				EE37EDD620FDC98400813815 /* main.m */,
+			);
+			path = PracticeLogin;
+			sourceTree = "<group>";
+		};
+		EE37EDDF20FDC98500813815 /* PracticeLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE37EDE020FDC98500813815 /* PracticeLoginTests.m */,
+				EE37EDE220FDC98500813815 /* Info.plist */,
+			);
+			path = PracticeLoginTests;
+			sourceTree = "<group>";
+		};
+		EE37EDEA20FDC98500813815 /* PracticeLoginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE37EDEB20FDC98500813815 /* PracticeLoginUITests.m */,
+				EE37EDED20FDC98500813815 /* Info.plist */,
+			);
+			path = PracticeLoginUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE37EDC320FDC98300813815 /* PracticeLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE37EDF020FDC98500813815 /* Build configuration list for PBXNativeTarget "PracticeLogin" */;
+			buildPhases = (
+				EE37EDC020FDC98300813815 /* Sources */,
+				EE37EDC120FDC98300813815 /* Frameworks */,
+				EE37EDC220FDC98300813815 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PracticeLogin;
+			productName = PracticeLogin;
+			productReference = EE37EDC420FDC98300813815 /* PracticeLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE37EDDB20FDC98500813815 /* PracticeLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE37EDF320FDC98500813815 /* Build configuration list for PBXNativeTarget "PracticeLoginTests" */;
+			buildPhases = (
+				EE37EDD820FDC98500813815 /* Sources */,
+				EE37EDD920FDC98500813815 /* Frameworks */,
+				EE37EDDA20FDC98500813815 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE37EDDE20FDC98500813815 /* PBXTargetDependency */,
+			);
+			name = PracticeLoginTests;
+			productName = PracticeLoginTests;
+			productReference = EE37EDDC20FDC98500813815 /* PracticeLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE37EDE620FDC98500813815 /* PracticeLoginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE37EDF620FDC98500813815 /* Build configuration list for PBXNativeTarget "PracticeLoginUITests" */;
+			buildPhases = (
+				EE37EDE320FDC98500813815 /* Sources */,
+				EE37EDE420FDC98500813815 /* Frameworks */,
+				EE37EDE520FDC98500813815 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE37EDE920FDC98500813815 /* PBXTargetDependency */,
+			);
+			name = PracticeLoginUITests;
+			productName = PracticeLoginUITests;
+			productReference = EE37EDE720FDC98500813815 /* PracticeLoginUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE37EDBC20FDC98300813815 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "李敏";
+				TargetAttributes = {
+					EE37EDC320FDC98300813815 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					EE37EDDB20FDC98500813815 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EE37EDC320FDC98300813815;
+					};
+					EE37EDE620FDC98500813815 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EE37EDC320FDC98300813815;
+					};
+				};
+			};
+			buildConfigurationList = EE37EDBF20FDC98300813815 /* Build configuration list for PBXProject "PracticeLogin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE37EDBB20FDC98300813815;
+			productRefGroup = EE37EDC520FDC98300813815 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE37EDC320FDC98300813815 /* PracticeLogin */,
+				EE37EDDB20FDC98500813815 /* PracticeLoginTests */,
+				EE37EDE620FDC98500813815 /* PracticeLoginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE37EDC220FDC98300813815 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE37EDD420FDC98400813815 /* LaunchScreen.storyboard in Resources */,
+				EE37EDD120FDC98400813815 /* Assets.xcassets in Resources */,
+				EE37EDCF20FDC98300813815 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE37EDDA20FDC98500813815 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE37EDE520FDC98500813815 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE37EDC020FDC98300813815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE37EDCC20FDC98300813815 /* ViewController.m in Sources */,
+				EE37EDD720FDC98400813815 /* main.m in Sources */,
+				EE37EDC920FDC98300813815 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE37EDD820FDC98500813815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE37EDE120FDC98500813815 /* PracticeLoginTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE37EDE320FDC98500813815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE37EDEC20FDC98500813815 /* PracticeLoginUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE37EDDE20FDC98500813815 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE37EDC320FDC98300813815 /* PracticeLogin */;
+			targetProxy = EE37EDDD20FDC98500813815 /* PBXContainerItemProxy */;
+		};
+		EE37EDE920FDC98500813815 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE37EDC320FDC98300813815 /* PracticeLogin */;
+			targetProxy = EE37EDE820FDC98500813815 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE37EDCD20FDC98300813815 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE37EDCE20FDC98300813815 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE37EDD220FDC98400813815 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE37EDD320FDC98400813815 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE37EDEE20FDC98500813815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE37EDEF20FDC98500813815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE37EDF120FDC98500813815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PracticeLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = minmin.PracticeLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE37EDF220FDC98500813815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PracticeLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = minmin.PracticeLogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE37EDF420FDC98500813815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PracticeLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = minmin.PracticeLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PracticeLogin.app/PracticeLogin";
+			};
+			name = Debug;
+		};
+		EE37EDF520FDC98500813815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PracticeLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = minmin.PracticeLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PracticeLogin.app/PracticeLogin";
+			};
+			name = Release;
+		};
+		EE37EDF720FDC98500813815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PracticeLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = minmin.PracticeLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PracticeLogin;
+			};
+			name = Debug;
+		};
+		EE37EDF820FDC98500813815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PracticeLoginUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = minmin.PracticeLoginUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PracticeLogin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE37EDBF20FDC98300813815 /* Build configuration list for PBXProject "PracticeLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE37EDEE20FDC98500813815 /* Debug */,
+				EE37EDEF20FDC98500813815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE37EDF020FDC98500813815 /* Build configuration list for PBXNativeTarget "PracticeLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE37EDF120FDC98500813815 /* Debug */,
+				EE37EDF220FDC98500813815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE37EDF320FDC98500813815 /* Build configuration list for PBXNativeTarget "PracticeLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE37EDF420FDC98500813815 /* Debug */,
+				EE37EDF520FDC98500813815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE37EDF620FDC98500813815 /* Build configuration list for PBXNativeTarget "PracticeLoginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE37EDF720FDC98500813815 /* Debug */,
+				EE37EDF820FDC98500813815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE37EDBC20FDC98300813815 /* Project object */;
+}
