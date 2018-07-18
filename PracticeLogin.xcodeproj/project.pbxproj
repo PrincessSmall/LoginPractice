@@ -15,6 +15,16 @@
 		EE37EDD720FDC98400813815 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE37EDD620FDC98400813815 /* main.m */; };
 		EE37EDE120FDC98500813815 /* PracticeLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE37EDE020FDC98500813815 /* PracticeLoginTests.m */; };
 		EE37EDEC20FDC98500813815 /* PracticeLoginUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE37EDEB20FDC98500813815 /* PracticeLoginUITests.m */; };
+		EE37EDFB20FDCFE500813815 /* TwoButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE37EDFA20FDCFE500813815 /* TwoButtonCell.m */; };
+		EE37EDFE20FED74300813815 /* TitleImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE37EDFD20FED74300813815 /* TitleImageCell.m */; };
+		EE37EE0120FED96400813815 /* NomalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE37EE0020FED96400813815 /* NomalCell.m */; };
+		EE37EE0420FEE31E00813815 /* signatureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE37EE0320FEE31E00813815 /* signatureCell.m */; };
+		EE37EE0D20FF1AD200813815 /* TitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE37EE0C20FF1AD200813815 /* TitleCell.m */; };
+		EE37EE1020FF231500813815 /* MyInformationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE37EE0F20FF231500813815 /* MyInformationCell.m */; };
+		EE37EE1320FF30A800813815 /* MyPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EE37EE1220FF30A800813815 /* MyPageVC.m */; };
+		EE37EE1620FF33F600813815 /* HPNewUserInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = EE37EE1520FF33F600813815 /* HPNewUserInformation.m */; };
+		EE37EE1C20FF3B9500813815 /* EditVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EE37EE1B20FF3B9500813815 /* EditVC.m */; };
+		EE37EE1F20FF3C5200813815 /* EditInformationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE37EE1E20FF3C5200813815 /* EditInformationCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,26 @@
 		EE37EDE720FDC98500813815 /* PracticeLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticeLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE37EDEB20FDC98500813815 /* PracticeLoginUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PracticeLoginUITests.m; sourceTree = "<group>"; };
 		EE37EDED20FDC98500813815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE37EDF920FDCFE400813815 /* TwoButtonCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoButtonCell.h; sourceTree = "<group>"; };
+		EE37EDFA20FDCFE500813815 /* TwoButtonCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoButtonCell.m; sourceTree = "<group>"; };
+		EE37EDFC20FED74300813815 /* TitleImageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TitleImageCell.h; sourceTree = "<group>"; };
+		EE37EDFD20FED74300813815 /* TitleImageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TitleImageCell.m; sourceTree = "<group>"; };
+		EE37EDFF20FED96400813815 /* NomalCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NomalCell.h; sourceTree = "<group>"; };
+		EE37EE0020FED96400813815 /* NomalCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NomalCell.m; sourceTree = "<group>"; };
+		EE37EE0220FEE31E00813815 /* signatureCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = signatureCell.h; sourceTree = "<group>"; };
+		EE37EE0320FEE31E00813815 /* signatureCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = signatureCell.m; sourceTree = "<group>"; };
+		EE37EE0B20FF1AD200813815 /* TitleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TitleCell.h; sourceTree = "<group>"; };
+		EE37EE0C20FF1AD200813815 /* TitleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TitleCell.m; sourceTree = "<group>"; };
+		EE37EE0E20FF231500813815 /* MyInformationCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyInformationCell.h; sourceTree = "<group>"; };
+		EE37EE0F20FF231500813815 /* MyInformationCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyInformationCell.m; sourceTree = "<group>"; };
+		EE37EE1120FF30A800813815 /* MyPageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPageVC.h; sourceTree = "<group>"; };
+		EE37EE1220FF30A800813815 /* MyPageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPageVC.m; sourceTree = "<group>"; };
+		EE37EE1420FF33F600813815 /* HPNewUserInformation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPNewUserInformation.h; sourceTree = "<group>"; };
+		EE37EE1520FF33F600813815 /* HPNewUserInformation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPNewUserInformation.m; sourceTree = "<group>"; };
+		EE37EE1A20FF3B9500813815 /* EditVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditVC.h; sourceTree = "<group>"; };
+		EE37EE1B20FF3B9500813815 /* EditVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditVC.m; sourceTree = "<group>"; };
+		EE37EE1D20FF3C5200813815 /* EditInformationCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditInformationCell.h; sourceTree = "<group>"; };
+		EE37EE1E20FF3C5200813815 /* EditInformationCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditInformationCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +135,8 @@
 				EE37EDC820FDC98300813815 /* AppDelegate.m */,
 				EE37EDCA20FDC98300813815 /* ViewController.h */,
 				EE37EDCB20FDC98300813815 /* ViewController.m */,
+				EE37EE0920FF1A7000813815 /* 我的主页 */,
+				EE37EE0520FEE6A500813815 /* cell */,
 				EE37EDCD20FDC98300813815 /* Main.storyboard */,
 				EE37EDD020FDC98400813815 /* Assets.xcassets */,
 				EE37EDD220FDC98400813815 /* LaunchScreen.storyboard */,
@@ -130,6 +162,48 @@
 				EE37EDED20FDC98500813815 /* Info.plist */,
 			);
 			path = PracticeLoginUITests;
+			sourceTree = "<group>";
+		};
+		EE37EE0520FEE6A500813815 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				EE37EDFC20FED74300813815 /* TitleImageCell.h */,
+				EE37EDFD20FED74300813815 /* TitleImageCell.m */,
+				EE37EE0220FEE31E00813815 /* signatureCell.h */,
+				EE37EE0320FEE31E00813815 /* signatureCell.m */,
+				EE37EDF920FDCFE400813815 /* TwoButtonCell.h */,
+				EE37EDFA20FDCFE500813815 /* TwoButtonCell.m */,
+				EE37EDFF20FED96400813815 /* NomalCell.h */,
+				EE37EE0020FED96400813815 /* NomalCell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		EE37EE0920FF1A7000813815 /* 我的主页 */ = {
+			isa = PBXGroup;
+			children = (
+				EE37EE0A20FF1A8A00813815 /* cell */,
+				EE37EE1120FF30A800813815 /* MyPageVC.h */,
+				EE37EE1220FF30A800813815 /* MyPageVC.m */,
+				EE37EE1A20FF3B9500813815 /* EditVC.h */,
+				EE37EE1B20FF3B9500813815 /* EditVC.m */,
+			);
+			path = "我的主页";
+			sourceTree = "<group>";
+		};
+		EE37EE0A20FF1A8A00813815 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				EE37EE1420FF33F600813815 /* HPNewUserInformation.h */,
+				EE37EE1520FF33F600813815 /* HPNewUserInformation.m */,
+				EE37EE0B20FF1AD200813815 /* TitleCell.h */,
+				EE37EE0C20FF1AD200813815 /* TitleCell.m */,
+				EE37EE0E20FF231500813815 /* MyInformationCell.h */,
+				EE37EE0F20FF231500813815 /* MyInformationCell.m */,
+				EE37EE1D20FF3C5200813815 /* EditInformationCell.h */,
+				EE37EE1E20FF3C5200813815 /* EditInformationCell.m */,
+			);
+			path = cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +336,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE37EDFE20FED74300813815 /* TitleImageCell.m in Sources */,
+				EE37EE0120FED96400813815 /* NomalCell.m in Sources */,
+				EE37EDFB20FDCFE500813815 /* TwoButtonCell.m in Sources */,
+				EE37EE1320FF30A800813815 /* MyPageVC.m in Sources */,
 				EE37EDCC20FDC98300813815 /* ViewController.m in Sources */,
+				EE37EE1F20FF3C5200813815 /* EditInformationCell.m in Sources */,
 				EE37EDD720FDC98400813815 /* main.m in Sources */,
+				EE37EE1C20FF3B9500813815 /* EditVC.m in Sources */,
+				EE37EE0420FEE31E00813815 /* signatureCell.m in Sources */,
+				EE37EE0D20FF1AD200813815 /* TitleCell.m in Sources */,
+				EE37EE1620FF33F600813815 /* HPNewUserInformation.m in Sources */,
+				EE37EE1020FF231500813815 /* MyInformationCell.m in Sources */,
 				EE37EDC920FDC98300813815 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
